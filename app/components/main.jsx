@@ -1,10 +1,13 @@
+
+
+
 export default function Main(){
 
     return(
         <main className="flex flex-col  justify-between p-24" 
     style={{
       backgroundImage:`url('/bcgr.jpg')`,
-      height:"100vh"
+      height:"80vh"
       }} >
         <div>
       <h2 className="text-red-600 text-5xl mr-9 mt-32 font-serif ">
