@@ -1,6 +1,8 @@
+
+import Cards from "./components/cards";
 import Header from "./components/header";
 import Main from "./components/main";
-import MainCard from "./components/maincard"
+
 /* import Card from "./components/cards"; */
 
 export default function Home() {
@@ -8,7 +10,7 @@ export default function Home() {
     <>
     <Header />,
     <Main />,
-    <MainCard />
+    <Cards/>
     </>
   );
 }
