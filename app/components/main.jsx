@@ -4,7 +4,7 @@
 export default function Main(){
 
     return(
-        <main className="flex flex-col  justify-between p-24" 
+        <main className="flex flex-col  justify-between p-24 relative " 
     style={{
       backgroundImage:`url('/bcgr.jpg')`,
       height:"80vh"
